@@ -1,1 +1,4 @@
-# Javascript
+﻿# portafolio
+git remote add origin https://github.com/shandonvasquez/portafolio.git
+git branch -M main
+git push -u origin main
