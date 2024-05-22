@@ -1,7 +1,21 @@
 {
+  "name": "01-api-airport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Luis Miguel Avendaño",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "env-var": "^7.4.1",
+    "express": "^4.18.2"
+  },
   "devDependencies": {
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.33",
-    "tailwindcss": "^3.4.1"
+    "nodemon": "^3.0.1"
   }
 }
